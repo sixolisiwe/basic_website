@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+   
+    <style>
+body {
+    font-family:fantasy;
+    color: khaki;
+}
+.header {
+    background-color:burlywood;
+    padding: 1em;
+
+}
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+    }
+.content {
+    padding: 1em;
+}
+    
+    table, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  border-color: white;
+
+}    
+    .column {
+  float: left;
+  width: 30%;
+  padding: 20px;
+
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+body {
+  background-image: url(art.jpg)
+}
+img {
+    float: right;
+    padding-bottom: 1em;
+}
+div {
+  clear: right;
+
+}
+.flex-container {
+  display: flex;
+  flex-direction: row-reverse;
+}
+ 
+    </style>
+</head>
+
+<body>   
+    <div class="container">
+                <div class="header">
+                    <h1> Sixolisiwe Mcube <img src="2019-04-12-112413.jpg" style="width: 200px; height:150px">
+</h1>   
+        </div>
+
+              <div class="city clearfix">
+                  <h2>Which city? </h2>
+    <img src="windhoek_1606588c.jpg" style="width:20s0px; height:150px; float:left; padding-right: 1em" ><u>Windhoek</u> 
+
+<p style= "text-align:justify">I would like to visit Windhoek, Namibia.I have a friend i haven't seen in such a 
+long time that resides there, also I would love to visit the city's historical sites.</p>
+             </div>
+             <div class="content clearfix">
+                             <h2>A foreign language</h2>
+                             <table style="border: 1px solid black;
+                              width:100%">
+                                <tr>
+                                  <th>Swahili</th>
+                                  <th>English</th> 
+                                </tr>
+                                <tr>
+                                  <td>Hujambo</td>
+                                  <td>Hello</td> 
+                                </tr>
+                                <tr>
+                                    <td>Habari gani?</td>
+                                    <td>How are you?</td>
+                                    </tr>
+                                <tr>
+                                  <td>Ahsante sana</td>
+                                  <td>Thank you very much</td> 
+                                </tr>
+                              </table>               
+                       
+             </div>
+
+             <div class="row clearfix">
+                <h3> Historical places in Cape Town</h3>
+                 <div class= "column clearfix">
+                    <u> District Six Museum</u>
+                     <img src="http://placehold.jp/150x150.png">
+                    <ul style="text-align: left">
+                    <li> District Six was an area of Cape Town in 
+                      the nineteen seventies that housed
+                      almost one tenth of the population of 
+                      Cape Town. In the year 1965 the apartheid 
+                        government at the time stated that District 
+                          Six was now a “white” area.</li>
+                    <li> This resulted in more than sixty thousand people 
+                            being forced to move and relocate to the Cape Flats. </li>
+                    <li> Exciting guided tours are offered of the area which are conducted by a genuine
+                           ex-resident of the original District Six. 
+                           In doing this, you are going to gain a real sense of what
+                           it was like for the people back in those days. </li>
+                    </ul>
+             </div>
+                    <div class="column clearfix">
+                    <u> Iziko slave lodge</u>
+                    <img src="http://placehold.jp/150x150.png">
+                    <ul style="text-align:left">
+                    <li>In 1998 this museum was renamed the Slave Lodge. 
+                          Under the umbrella theme, ‘From human wrongs to human rights”.
+                           Exhibitions on the lower level of this museum explore the long history of slavery in South Africa. </li>
+                    <li> Through the changing, temporary exhibitions the museum addresses issues around 
+                          and raise human rights awareness.</li>
+                    <li>The museum also offers an audio-guided tour, which can be rented at a nominal fee. 
+                          This guide takes you on a historical journey through the Slave Lodge and provides insight into the dismal living conditions during slavery in South Africa. </li>
+                    </ul>
+                </div>
+                   <div class="column clearfix">
+                     <U> Green Market Square</U>
+                    <img src="http://placehold.jp/150x150.png">
+                    <ul style="text-align:left">
+                        <li>By the end of the 1980s, the square was turned into a
+                           flea market – the early version of the Greenmarket Square found today. </li>
+                        <li>The square is large and cobbled, with ancient trees surrounding it along
+                           with beautiful old heritage buildings. The vibe there is always amazing, too. </li>
+                        <li>Look out for th famous eggman,buskers and street artists, people 
+                          from all walks of life, sidewalk cafes under the trees and other interesting sights.</li>
+                    </ul>
+                    </div>
+             </div>
+         </div>  
+    
+</body>
+</html>
