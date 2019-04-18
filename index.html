@@ -9,12 +9,14 @@
     <style>
 body {
     font-family:fantasy;
-    color: khaki;
+    color: black;
 }
 .header {
-    background-color:burlywood;
+    background-image: url(Table_Mountain.jpg);
     padding: 1em;
-
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
 }
 .clearfix {
   overflow: auto;
@@ -27,7 +29,7 @@ body {
     table, th, td {
   border: 2px solid black;
   border-collapse: collapse;
-  border-color: white;
+  border-color: black;
 
 }    
     .column {
@@ -42,13 +44,17 @@ body {
   .column {
     width: 100%;
   }
+#second-picture{
+  float:left;
+  padding-right: inherit;
+}
 }
 body {
-  background-image: url(art.jpg)
+  background-image: url(gold-hour.jpg)
 }
 img {
     float: right;
-    padding-bottom: 1em;
+    padding-bottom: inherit;
 }
 div {
   clear: right;
@@ -58,22 +64,27 @@ div {
   display: flex;
   flex-direction: row-reverse;
 }
+.header {
+  display:inline-block;
+  margin-left: auto;
+  margin-right:auto;
+  width: 50%;
+}
  
     </style>
 </head>
 
-<body>   
+<body>    
     <div class="container">
                 <div class="header">
-                    <h1> Sixolisiwe Mcube <img src="2019-04-12-112413.jpg" style="width: 200px; height:150px">
-</h1>   
+                    <h1> Sixolisiwe</h1><h1> Mcube </h1> </h1>             <img src="2019-04-12-112413.jpg" style="width: 200px; height:150px" class= "center">         
         </div>
-
               <div class="city clearfix">
                   <h2>Which city? </h2>
     <img src="windhoek_1606588c.jpg" style="width:20s0px; height:150px; float:left; padding-right: 1em" ><u>Windhoek</u> 
 
-<p style= "text-align:justify">I would like to visit Windhoek, Namibia.I have a friend i haven't seen in such a 
+<p style= "text-align:justify">I would like to visit Windhoek, Namibia.</p>
+<p style= "text-align: justify">I have a friend i haven't seen in such a 
 long time that resides there, also I would love to visit the city's historical sites.</p>
              </div>
              <div class="content clearfix">
@@ -99,8 +110,8 @@ long time that resides there, also I would love to visit the city's historical s
                               </table>               
                        
              </div>
-
-             <div class="row clearfix">
+<!-- <div class= "content"> -->
+             <div class="row clearfix content">
                 <h3> Historical places in Cape Town</h3>
                  <div class= "column clearfix">
                     <u> District Six Museum</u>
@@ -119,10 +130,11 @@ long time that resides there, also I would love to visit the city's historical s
                            In doing this, you are going to gain a real sense of what
                            it was like for the people back in those days. </li>
                     </ul>
-             </div>
-                    <div class="column clearfix">
+             <!-- </div> -->
+            </div>
+                    <div class="column clearfix place">
                     <u> Iziko slave lodge</u>
-                    <img src="http://placehold.jp/150x150.png">
+                    <img id="second-picture" src="http://placehold.jp/150x150.png">
                     <ul style="text-align:left">
                     <li>In 1998 this museum was renamed the Slave Lodge. 
                           Under the umbrella theme, ‘From human wrongs to human rights”.
