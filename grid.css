@@ -1,0 +1,33 @@
+
+ table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    border-color: black;
+ }
+ body{
+     font-family: fantasy;
+     color: black;
+     background-image: url(gold-hour.jpg);
+ }
+ #picture {
+     float:left;
+     margin-left: 1em;
+     padding-right: 2em;
+
+ }
+
+ .city-text{
+ padding-top: 10%;
+ }
+ @media (min-width: 800px){
+    #picture {
+        float:right;
+        margin-left: 1em;
+   
+    }
+    .city-text{
+        padding-top: 10%;
+        }
+     }
+
+
